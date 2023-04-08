@@ -1,0 +1,21 @@
+{
+    "configurations": [
+        {
+            "name": "ESP32-C3",
+            "includePath": [
+                "${default}",
+                "${workspaceFolder}/**",
+                "${config:idf.espIdfPath}/components/**"
+            ],
+            "defines": [
+                "_DEBUG",
+                "UNICODE",
+                "_UNICODE"
+            ],
+            "cStandard": "c17",
+            "cppStandard": "c++17",
+            "compileCommands": "${workspaceFolder}/rtc32/build/compile_commands.json"
+        }
+    ],
+    "version": 4
+}

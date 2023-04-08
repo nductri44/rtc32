@@ -1,0 +1,39 @@
+{
+    "idf.adapterTargetName": "esp32",
+    "cmake.configureOnOpen": false,
+    "terminal.explorerKind": "external",
+    "terminal.integrated.allowMnemonics": true,
+    "terminal.integrated.defaultProfile.windows": "Command Prompt",
+    "terminal.integrated.profiles.windows": {
+        "PowerShell": {
+            "source": "PowerShell",
+            "icon": "terminal-powershell"
+        },
+        "Command Prompt": {
+            "path": [
+                "${env:windir}\\Sysnative\\cmd.exe",
+                "${env:windir}\\System32\\cmd.exe"
+            ],
+            "args": [
+                "/k",
+                "D:\\Espressif\\idf_cmd_init.bat esp-idf-59306205164899c5bdba8e316d04451e"
+            ],
+            "icon": "terminal-cmd"
+        },
+        "Git Bash": {
+            "source": "Git Bash"
+        }
+    },
+    "idf.portWin": "COM3",
+    "files.associations": {
+        "esp_log.h": "c",
+        "timers.h": "c",
+        "esp_system.h": "c",
+        "stdio.h": "c",
+        "esp_timer.h": "c",
+        "stdbool.h": "c",
+        "rtc.h": "c"
+    },
+    "C_Cpp.errorSquiggles": "enabled",
+    "idf.espIdfPathWin": "D:/Espressif/frameworks/esp-idf-v5.0/"
+}
