@@ -1,6 +1,4 @@
 #
-CONFIG_ESP32_RTC_CLK_SRC_INTERNAL_REF_CLK_8M=y
-
 # Automatically generated file. DO NOT EDIT.
 # Espressif IoT Development Framework (ESP-IDF) Project Configuration
 #

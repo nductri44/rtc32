@@ -1,0 +1,7 @@
+[0/1] Re-running CMake...
+-- ccache will be used for faster recompilation
+-- Building ESP-IDF components for target esp32
+-- Configuring incomplete, errors occurred!
+See also "D:/Espressif/frameworks/esp-idf-v5.0/work/rtc32/rtc32/build/CMakeFiles/CMakeOutput.log".
+FAILED: build.ninja 
+D:\Espressif\tools\cmake\3.24.0\bin\cmake.exe --regenerate-during-build -SD:\Espressif\frameworks\esp-idf-v5.0\work\rtc32\rtc32 -BD:\Espressif\frameworks\esp-idf-v5.0\work\rtc32\rtc32\build

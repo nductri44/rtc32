@@ -1,0 +1,12 @@
+CMake Error at D:/Espressif/frameworks/esp-idf-v5.0/tools/cmake/component.cmake:492 (add_library):
+  add_library cannot create target "__idf_main" because another target with
+  the same name already exists.  The existing target is a static library
+  created in source directory
+  "D:/Espressif/frameworks/esp-idf-v5.0/work/rtc32/rtc32/main".  See
+  documentation for policy CMP0002 for more details.
+Call Stack (most recent call first):
+  D:/Espressif/frameworks/esp-idf-v5.0/tools/cmake/component.cmake:628 (idf_component_register)
+  main/CMakeLists.txt:9 (register_component)
+
+
+ninja: error: rebuilding 'build.ninja': subcommand failed
