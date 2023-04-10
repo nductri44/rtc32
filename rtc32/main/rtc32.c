@@ -4,14 +4,11 @@
 #include "driver/gpio.h"
 #include "driver/rtc_io.h"
 #include "esp_sleep.h"
-#include "spi_flash_mmap.h"
 #include "esp_timer.h"
 #include "esp_err.h"
 #include "esp32/rom/rtc.h"
 #include "esp32/rom/crc.h"
-#include "esp32/rtc.h"
 #include "sys/time.h"
-#include <time.h>
 
 #define TAG "RTC"
 
