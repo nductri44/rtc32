@@ -29,17 +29,15 @@ void read_rtc(void *pvParameter)
 void app_main(void)
 {
     esp_err_t ret;
-    struct tm timeinfo;
-    time_t now;
 
     // Set default time to January 1st, 2023 at 00:00:00
     struct tm default_time = {
         .tm_year = 2023 - 1900,
         .tm_mon = 0, // January
         .tm_mday = 1,
-        .tm_hour = 0,
-        .tm_min = 0,
-        .tm_sec = 0
+        .tm_hour = 23,
+        .tm_min = 59,
+        .tm_sec = 50
     };
     time_t default_time_secs = mktime(&default_time);
     struct timeval tv = {
